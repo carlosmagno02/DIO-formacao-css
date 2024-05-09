@@ -8,7 +8,7 @@
 }
 
 .container{
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 0 auto;
 }
 
@@ -43,17 +43,25 @@ header{
 .search input{
     height: 30px;
     width: 87%;
-    border: 1px solid #000;
+    border: 1px solid #838383;
+    border-radius: 10px 0 0 10px;
+    padding: 0 .5rem;
+}
+
+.search input:focus{
+    /* border: 1px solid #838383; */
+    outline: none;
 }
 
 .search-img{
     width: 13%;
     background: #f1f1f1;
-    border: 1px solid #000;
+    border: 1px solid #838383;
     border-left: 0;
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 0 10px 10px 0;
 }
 
 .right{
@@ -66,8 +74,18 @@ header{
 }
 
 /* Main */
+main .container{
+    display: flex;
+    justify-content: space-between;
+}
+
 #main{
-    width: 80%;
+    width: 72%;
+}
+
+.video img{
+    width: 100%;
+    border-radius: 1.5rem;
 }
 
 #main h1{
@@ -96,6 +114,7 @@ header{
     border: none;
     padding: 0 2rem;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .like,.dislike,.share,.download{
@@ -106,6 +125,7 @@ header{
 
 .like img,.dislike img,.share img,.download img{
     margin-right: .5rem;
+    cursor: pointer;
 }
 
 .data{
@@ -121,4 +141,25 @@ header{
 .description{
     width: 60%;
     padding-top: 1rem;
+}
+
+/* aside */
+
+aside{
+    width: 26%;
+}
+
+aside li {
+    display: flex;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+aside li img{
+    border-radius: .5rem;
+    margin-right: .5rem;
+}
+
+.channel-recomendation{
+    padding: .5rem 0;
 }
