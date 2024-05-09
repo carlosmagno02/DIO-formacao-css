@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans";
+}
+
+img{
+    max-width: 100%;
+}
+
+header{
+    background-image: url("images/Header\ Background.png");
+    padding: 6rem 0;
+    background-position: center;
+    background-size: cover;
+}
+
+.header-container{
+    max-width: 757px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header-container h1{
+    font-family: "Luckiest Guy";
+    font-size: 56px;
+    color: #fff;
+    line-height: 56px;
+}
+
+.header-container p{
+    color: #fff;
+    padding: 2rem 0;
+}
+
+.buttons-header a{
+    background-color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    color: #23272A;
+    padding: .75rem 1.5rem;
+    border-radius: 5rem;
+    margin-right: 1rem;
+}
+
+.open-discord{
+    background-color: #23272A !important;
+    color: #fff !important;
+}
+
+/* main */
+section{
+    padding: 4rem 0;
+}
+
+.sec-row .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.sec-row h2{
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 54.47px;
+}
+
+.text-sec{
+    max-width: 348px;
+    color: #23272A;
+}
+
+.text-sec p{
+    padding-top: 1rem;
+}
+
+.reverse{
+    background-color: #F6F6F6;
+}
+
+.reverse .container{
+    flex-direction: row-reverse;
+}
+
+.sec-foo{
+    background-color: #F6F6F6;
+}
+
+.sec-foo h2{
+    font-family: "Luckiest Guy";
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.sec-foo .container{
+    max-width: 802px;
+    color: #23272A;
+    text-align: center;
+}
+
+.sec-foo p{
+    padding: 1rem 0;
+}
+
+footer{
+    background-color: #23272A;
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+@media screen and (max-width:500px){
+    .container,.header-container{
+        padding: 0 1rem;
+    }
+
+    .header-container{
+        text-align: left;
+    }
+
+    .header-container h1{
+        font-size: 32px ;
+        line-height: 32px;
+    }
+
+    .buttons-header a{
+        width: 100%;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .sec-row h2{
+        font-size: 24px;
+        line-height: 32.68px;
+    }
+    
+    .text-sec p{
+        padding-top: 1rem;
+    }
+
+    .sec-foo .container{
+        text-align: left;
+    }
+
+    .sec-foo h2{
+        font-size: 32px;
+        line-height: 32px;
+    }
+}
