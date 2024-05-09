@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* header */
+
+header{
+    padding: 1rem ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left{
+    display: flex;
+}
+
+.logo{
+    margin-left: 2rem;
+}
+
+.center{
+    max-width: 300px;
+    width: 100%;
+}
+
+.search{
+    max-width: 300px;
+    width: 100%;
+    display: flex;
+}
+
+.search input{
+    height: 30px;
+    width: 87%;
+    border: 1px solid #000;
+}
+
+.search-img{
+    width: 13%;
+    background: #f1f1f1;
+    border: 1px solid #000;
+    border-left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+}
+
+.bell{
+    margin: 0 1.5rem;
+}
+
+/* Main */
+#main{
+    width: 80%;
+}
+
+#main h1{
+    font-size: 20px;
+    padding: 1rem 0;
+}
+
+.channel-details{
+    display: flex;
+    justify-content: space-between;
+}
+
+.channel{
+    display: flex;
+    max-width: 180px;
+}
+
+.channel img{
+    margin-right: .5rem;
+}
+
+.channel-details button{
+    color: #fff;
+    background-color: #cc0000;
+    border-radius: 5px;
+    border: none;
+    padding: 0 2rem;
+    font-weight: bold;
+}
+
+.like,.dislike,.share,.download{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.like img,.dislike img,.share img,.download img{
+    margin-right: .5rem;
+}
+
+.data{
+    padding-top: 1rem;
+    display: flex;
+    font-weight: bold;
+}
+
+.data p{
+    margin-right: 1rem;
+}
+
+.description{
+    width: 60%;
+    padding-top: 1rem;
+}
